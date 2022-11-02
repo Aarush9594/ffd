@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <center>
+        <h1>Collage Web App</h1>
+        <hr>
+        <h4>As soon as the popup appears, please click Allow. After you've spoken a command</h4>
+        <h3>Say "Take my selfie"</h3>
+        <button class="btn btn-primary" onclick="save()">Start</button>
+        <h4>Click on the start button,this will take 3 photos and make them into a collage</h4>
+        <label>Webcam Preview: </label>
+        <div id="camera"></div>
+
+        <label>All the selfie will be stored over here</label>
+        <div id="resultShow">
+            <div id="result1"><img src="camera.webp"></div>
+            <div id="result2"><img src="7-Video.jpg"></div>
+            <div id="result3"><img src="364365.jpg"></div>
+        </div>
+    </center>
+
+</body>
+
+</html>
